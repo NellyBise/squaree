@@ -17,7 +17,19 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-dmsans;
+  font-weight: 700;
+}
+
+.hover\:animation-pause:hover {
+  animation-play-state: paused;
+  transition: animation-play-state 0.5s ease;
+  /* Durée et easing de la transition */
 }
 
 @layer utilities {
