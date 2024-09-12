@@ -1,0 +1,28 @@
+[
+    {
+      "_id": "1",
+      "name": "Notion",
+      "img": "/logos/notion.png"
+    },
+    {
+      "_id": "2",
+      "name": "Slack",
+      "img": "/logos/slack.png"
+    },
+    {
+      "_id": "3",
+      "name": "Zapier",
+      "img": "/logos/zapier.png"
+    },
+    {
+      "_id": "4",
+      "name": "Evernote",
+      "img": "/logos/evernote.png"      
+    },
+    {
+      "_id": "5",
+      "name": "Figma",
+      "img": "/logos/figma.png"      
+    }
+  ]
+  

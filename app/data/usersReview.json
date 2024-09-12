@@ -1,0 +1,44 @@
+[
+    {
+      "_id": "1",
+      "title": "Brilliant houses to rent",
+      "review": "All eFounders teams have moved to Cycle for all things product management and it is truly a game-changer.",
+      "user": {
+        "name" : "John Master",
+        "function": "Director,  Blue",
+        "image": "/users/1.png"
+      }
+      
+    },
+    {
+      "_id": "2",
+      "title": "Convenient for searching apartments",
+      "review": "Cycle makes it easy to contact the most relevant users whenever I need feedback on a new product initiative. It helps me capture all the necessary customer context without friction.",
+      "user": {
+        "name" : "Jane Mistress",
+        "function": "Ceo,  Jinx",
+        "image": "/users/2.png"
+      }
+    },
+    {
+      "_id": "3",
+      "title": "It feels much more safe",
+      "review": "As a company with a strong Slack culture, it’s important that we find ways to meet our champions where they are, and Channeled allows us to do just that.",
+      "user": {
+        "name" : "John Master",
+        "function": "Director,  Fynx",
+        "image": "/users/3.png"
+      }
+    },
+    {
+      "_id": "4",
+      "title": "Secure search for all",
+      "review": "All eFounders teams have moved to Cycle for all things product management and it is truly a game-changer.",
+      "user": {
+        "name" : "Jane Mistress",
+        "function": "Ceo,  Whyle",
+        "image": "/users/4.png"
+      }  
+    }
+  ]
+  
