@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Free",
+        "price":"$0",
+        "description":"Description of the tier list will go here, copy should be concise and impactful.",
+        "included":
+        [
+            "Access to All features",
+            "20% discount on backorders",
+            "Domain Name Appraisal",
+            "10 Social Profiles"
+        ],
+        "button": "Try for Free"
+    },
+    {
+        "title": "Pro",
+        "price":"$12",
+        "description": "Description of the tier list will go here, copy should be concise and impactful.",
+        "option": "Eveything in the Free plan plus",
+        "included":
+        [
+            "Access to All features",
+            "20% discount on backorders",
+            "Domain Name Appraisal",
+            "10 Social Profiles",
+            "Calendar View",
+            "24/7 Support"
+        ],
+        "button": "Suscribe Now"
+    }
+]
