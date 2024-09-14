@@ -95,7 +95,7 @@ export default function Home() {
             <p className="max-w-24 text-center">Decrease in cost per lead</p>
           </div>
         </article>
-        <button className="group relative my-12 rounded-full py-3 px-6 bg-amber-400 text-white font-bold font-inter hover:bg-amber-500 focus:outline-none">
+        <button className="group relative my-12 rounded-full py-2 px-6 bg-amber-400 text-white font-bold font-inter outline outline-offset-0 hover:outline-offset-4 outline-amber-400 hover:shadow-xl ease-in-out duration-300 hover:shadow-amber-200 focus:outline-none">
           Explore our way
           <span className="moving-span inline-block transition-transform duration-300 transform group-hover:translate-x-2">
             &rarr;

@@ -20,15 +20,15 @@ export default function PrincingCards() {
         >
           Billed Monthly
         </p>
-        <label class="inline-flex items-center cursor-pointer">
+        <label className="inline-flex items-center cursor-pointer">
           <input
             type="checkbox"
             value=""
-            class="sr-only peer"
+            className="sr-only peer"
             checked={check}
             onClick={handleCheckboxChange}
           />
-          <div class="relative w-20 h-11 bg-amber-400 peer-focus:outline-none peer-focus:ring-1 ring-grey rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[4px]  after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-9  after:w-9 after:transition-all dark:border-gray-600"></div>
+          <div className="relative w-20 h-11 bg-amber-400 peer-focus:outline-none peer-focus:ring-1 ring-grey rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[4px]  after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-9  after:w-9 after:transition-all dark:border-gray-600"></div>
         </label>
         <p className={`w-[500px] ${check ? 'font-bold text-5xl' : 'text-xl'}`}>
           Billed Yearly <span className="text-xl items-center">(save 15%)</span>
@@ -57,7 +57,7 @@ export default function PrincingCards() {
                 <li key={`${price.title}-${item}`}>{item}</li>
               ))}
             </ul>
-            <button className="w-full py-4 mt-8 bg-amber-400 rounded-full text-white hover:bg-amber-500 ease-in-out duration-300">
+            <button className="w-full py-3 mt-8 bg-amber-400 rounded-full text-white outline outline-offset-0 hover:outline-offset-4 outline-amber-400 hover:shadow-xl hover:shadow-amber-200 ease-in-out duration-300">
               {price.button}
             </button>
           </div>
