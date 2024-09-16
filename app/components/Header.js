@@ -4,7 +4,7 @@ import arrow from '../src/arrow.png'
 
 export default function Header() {
   return (
-    <header className="mx-auto my-6 h-[75px] px-6 flex justify-between items-center rounded-2xl shadow-xl max-w-[1116px]">
+    <header className="mx-auto my-6 h-[75px] px-6 flex justify-between items-center rounded-2xl shadow-header max-w-[1116px]">
       <p className="flex items-center gap-2">
         <Image src={logo} alt="Squaree logo" width={38} height={38} />
         Squaree

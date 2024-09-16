@@ -31,21 +31,22 @@ h3 {
   transition: animation-play-state 0.5s ease;
 }
 
-.delay-500ms {
+.delay-1000ms {
   animation-delay: 1s;
 }
 
-.delay-1000ms {
+.delay-2000ms {
   animation-delay: 2s;
 }
 
-.delay-1500ms {
+.delay-3000ms {
   animation-delay: 3s;
 }
 
-.delay-2000ms {
+.delay-4000ms {
   animation-delay: 4s;
 }
+
 
 
 @layer utilities {
