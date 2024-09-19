@@ -45,8 +45,8 @@ export default function PrincingCards() {
             <h3 className="text-[34px] font-bold">{price.title}</h3>
             <p className="text-[38px] my-8 font-bold">
               {check ? price.yearly : price.monthly}
-              <span>{check ? '/ year' : '/ month'} </span>
-              <span className="line-through">
+              <span className="text-base">{check ? '/ year' : '/ month'} </span>
+              <span className="line-through text-xl">
                 {check && price.title === 'Pro' ? '($144)' : ''}
               </span>
             </p>
