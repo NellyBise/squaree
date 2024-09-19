@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import logo from '../../public/logo-squaree.png'
-import arrow from '../src/arrow.png'
+import arrow from '../src/Arrow.png'
 
 export default function Header() {
   return (
