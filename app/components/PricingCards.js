@@ -57,7 +57,7 @@ export default function PrincingCards() {
                 <li key={`${price.title}-${item}`}>{item}</li>
               ))}
             </ul>
-            <button className="w-full py-3 mt-8 bg-amber-400 rounded-full text-white outline -outline-offset-1 hover:outline-offset-4 outline-amber-400 hover:shadow-def hover:shadow-amber-200 ease-in-out duration-200">
+            <button className="w-full py-3 mt-8 bg-amber-400 rounded-full text-white outline -outline-offset-1 hover:outline-offset-4 outline-amber-400 hover:shadow-def hover:shadow-amber-200 hover:outline-amber-400/0 ease-in-out duration-500">
               {price.button}
             </button>
           </div>

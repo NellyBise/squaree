@@ -52,7 +52,7 @@ export default function Reviews() {
   }, [xTranslation, width, duration, rerender, mustFinish])
 
   return (
-    <section className="text-center mt-32 min-h-[900px]">
+    <section className="relative overflow-hidden text-center mt-32 min-h-[900px]">
       <h2 className="text-5xl leading-tight mb-4">What Squaree users say</h2>
       <p className="text-lg mb-12 ">Here is how homely can help you</p>
 

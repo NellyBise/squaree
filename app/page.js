@@ -35,14 +35,15 @@ export default function Home() {
           platform that helps <br />
           creators like you sell their digital products online.
         </p>
-        <div className="flex justify-center gap-12 relative">
-          <div className="relative animate-scaleup delay-1000ms">
+
+        <div className="flex justify-center pl-6 flex-nowrap gap-12 relative">
+          <div className=" animate-scaleup delay-1000ms">
             <Image src={carte1} alt="carte 1" />
           </div>
-          <div className="relative animate-scaleup">
+          <div className="animate-scaleup">
             <Image className="relative top-20" src={carte2} alt="carte 2" />
           </div>
-          <div className="relative">
+          <div className="">
             <div className="relative -top-5">
               <Image
                 className="mb-12 animate-scaleup delay-4000ms"
@@ -58,7 +59,7 @@ export default function Home() {
           </div>
           <div className="relative animate-scaleup delay-3000ms">
             <Image
-              className="relative top-40 -left-20"
+              className="relative top-40 -ml-5"
               src={carte5}
               alt="carte 5"
             />
@@ -98,7 +99,7 @@ export default function Home() {
             <p className="max-w-24 text-center">Decrease in cost per lead</p>
           </div>
         </article>
-        <button className="group relative my-12 rounded-full py-2 px-6 bg-amber-400 text-white font-bold font-inter outline -outline-offset-1 hover:outline-offset-4 outline-amber-400 hover:shadow-def ease-in-out duration-200 hover:shadow-amber-200 focus:outline-none">
+        <button className="group relative my-12 rounded-full py-2 px-6 bg-amber-400 text-white font-bold font-inter outline -outline-offset-1 hover:outline-offset-4 outline-amber-400 hover:shadow-def ease-in-out duration-500 hover:shadow-amber-200 hover:outline-amber-400/0 focus:outline-none">
           Explore our way
           <span className="moving-span inline-block transition-transform duration-200 transform group-hover:translate-x-2">
             &rarr;
@@ -116,20 +117,16 @@ export default function Home() {
             results or accomplishments.
           </p>
         </div>
-        <div className="max-w-[580px] h-[380px] w-1/2 relative">
+        <div className="max-w-[580px] h-[380px] w-1/2 flex justify-start">
           <Image
-            className="relative  animate-scaleup"
+            className="animate-scaleup max-h-[297px] "
             src={group1}
             alt="carte 1"
-            width={366}
-            height={297}
           />
           <Image
-            className="absolute left-60 top-60 animate-scaleup delay-2000 w-[366px] h-[156px] "
+            className="relative -left-40 -bottom-60 animate-scaleup delay-4000ms max-h-[156px] "
             src={group2}
             alt="carte 2"
-            width={366}
-            height={156}
           />
         </div>
       </section>
