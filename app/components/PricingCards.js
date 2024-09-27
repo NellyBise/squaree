@@ -1,17 +1,31 @@
 'use client'
 
 import prices from '../data/prices.json'
-import { useState } from 'react'
+import { useState, useRef } from 'react'
+import { motion, useInView } from 'framer-motion'
+
+const variants = {
+  visible: { y: 0, opacity: 1, filter: 'blur(0px)' },
+  hidden: { y: 50, opacity: 0, filter: 'blur(2px)' },
+}
 
 export default function PrincingCards() {
   const [check, setCheck] = useState(false)
-
   const handleCheckboxChange = () => {
     setCheck(!check)
   }
 
+  const ref = useRef(null)
+  const isInView = useInView(ref, { once: true })
+
   return (
-    <section className="flex flex-col items-center">
+    <motion.section
+      variants={variants}
+      ref={ref}
+      animate={isInView ? 'visible' : 'hidden'}
+      transition={{ duration: 0.5 }}
+      className="flex flex-col items-center"
+    >
       <div className="flex gap-2 items-center h-24 mb-14">
         <p
           className={`w-[500px] text-right ${
@@ -63,6 +77,6 @@ export default function PrincingCards() {
           </div>
         ))}
       </div>
-    </section>
+    </motion.section>
   )
 }
